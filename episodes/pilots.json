@@ -1,0 +1,290 @@
+{
+  "project": "Frase del Día · cuatro pilotos de humor lingüístico",
+  "format": "Spicy language-learning micro-podcast. Spoken audio is for adults; don't censor educational examples.",
+  "episodes": [
+    {
+      "id": "en",
+      "audience": "English speakers learning informal Spanish",
+      "title": "Ni de coña! (English edition)",
+      "filename": "frasedeldia-en-ni-de-cona.mp3",
+      "segments": [
+        {
+          "voice": "narrator",
+          "text": "Welcome to Frase del Día. The Spanish your textbook was too scared to teach you.",
+          "pause_ms": 250
+        },
+        {
+          "voice": "narrator",
+          "text": "Today's expression is short, spicy, and extremely useful:"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 330
+        },
+        {
+          "voice": "narrator",
+          "text": "It means: No bloody way. Or, if you're really annoyed: No fucking way!",
+          "pause_ms": 240
+        },
+        {
+          "voice": "narrator",
+          "text": "Pronunciation time. Listen to the Spanish voice, slowly:"
+        },
+        {
+          "voice": "spanish_slow",
+          "text": "Ni... de... coña.",
+          "pause_ms": 320
+        },
+        {
+          "voice": "narrator",
+          "text": "That letter eñe sounds like the N Y in canyon. One more time:"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 300
+        },
+        {
+          "voice": "narrator",
+          "text": "Example one. Your boss says, Can you work on Saturday? For free, obviously. Your reply?"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 250
+        },
+        {
+          "voice": "narrator",
+          "text": "Example two. Your Tinder date says, My ex still sleeps in my bed. Romantic, right?"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 200
+        },
+        {
+          "voice": "narrator",
+          "text": "Warning: it's very informal. Don't say it to your mother-in-law. Unless you're feeling brave.",
+          "pause_ms": 140
+        },
+        {
+          "voice": "narrator",
+          "text": "Frase del Día. Speak Spanish. Cause trouble. See you tomorrow!"
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "audience": "Francophones apprenant l'espagnol familier",
+      "title": "Ni de coña ! (édition française)",
+      "filename": "frasedeldia-fr-ni-de-cona.mp3",
+      "segments": [
+        {
+          "voice": "narrator",
+          "text": "Bienvenue dans Frase del Día, l'espagnol que ton prof n'osait pas t'enseigner.",
+          "pause_ms": 200
+        },
+        {
+          "voice": "narrator",
+          "text": "L'expression du jour, c'est :"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 330
+        },
+        {
+          "voice": "narrator",
+          "text": "En français ? Même pas en rêve ! Ou, version épicée : Pas question, bordel !",
+          "pause_ms": 260
+        },
+        {
+          "voice": "narrator",
+          "text": "Pour prononcer comme en Espagne, écoute bien :"
+        },
+        {
+          "voice": "spanish_slow",
+          "text": "Ni... de... coña.",
+          "pause_ms": 300
+        },
+        {
+          "voice": "narrator",
+          "text": "Le son gn, comme dans montagne. Mais attention, ce n'est pas une montagne à gravir !"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 220
+        },
+        {
+          "voice": "narrator",
+          "text": "Premier exemple : ton patron demande : tu pourrais bosser dimanche, gratuitement ?"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 180
+        },
+        {
+          "voice": "narrator",
+          "text": "Deuxième exemple : ton rencard te dit que son ex dort encore dans son lit. Très romantique."
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 180
+        },
+        {
+          "voice": "narrator",
+          "text": "Petit conseil : c'est familier et grossier. Évite-le au dîner chez ta belle-mère. Sauf si tu veux dormir sur le canapé.",
+          "pause_ms": 150
+        },
+        {
+          "voice": "narrator",
+          "text": "Frase del Día. Apprends l'espagnol, et sème un peu le chaos. À demain !"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "audience": "Italiani che imparano lo spagnolo colloquiale",
+      "title": "Ni de coña! (edizione italiana)",
+      "filename": "frasedeldia-it-ni-de-cona.mp3",
+      "segments": [
+        {
+          "voice": "narrator",
+          "text": "Benvenuti a Frase del Día. Lo spagnolo che il tuo professore non ha avuto il coraggio di insegnarti.",
+          "pause_ms": 200
+        },
+        {
+          "voice": "narrator",
+          "text": "L'espressione di oggi è:"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 300
+        },
+        {
+          "voice": "narrator",
+          "text": "Significa: Neanche per sogno! Oppure, se sei davvero stufo: Ma col cazzo!",
+          "pause_ms": 250
+        },
+        {
+          "voice": "narrator",
+          "text": "Come si pronuncia? Ascolta la voce spagnola, lentamente:"
+        },
+        {
+          "voice": "spanish_slow",
+          "text": "Ni... de... coña.",
+          "pause_ms": 280
+        },
+        {
+          "voice": "narrator",
+          "text": "La eñe suona più o meno come il nostro gn di gnocchi. Solo che questi gnocchi mordono."
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 180
+        },
+        {
+          "voice": "narrator",
+          "text": "Primo esempio. Il capo ti chiede: lavori gratis anche sabato? Dai, siamo una famiglia!"
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 180
+        },
+        {
+          "voice": "narrator",
+          "text": "Secondo esempio. Al primo appuntamento scopri che l'ex dorme ancora nel letto dell'altra persona."
+        },
+        {
+          "voice": "spanish",
+          "text": "¡Ni de coña!",
+          "pause_ms": 180
+        },
+        {
+          "voice": "narrator",
+          "text": "Attenzione: è molto colloquiale. Non dirlo a tua suocera. A meno che tu non voglia cenare da solo.",
+          "pause_ms": 160
+        },
+        {
+          "voice": "narrator",
+          "text": "Frase del Día. Parla spagnolo, combina guai. A domani!"
+        }
+      ]
+    },
+    {
+      "id": "es",
+      "audience": "Españoles que quieren sonar naturales en inglés",
+      "title": "From lost to the river (edición española)",
+      "filename": "frasedeldia-es-from-lost-to-the-river.mp3",
+      "segments": [
+        {
+          "voice": "english",
+          "text": "From lost to the river.",
+          "pause_ms": 580
+        },
+        {
+          "voice": "narrator",
+          "text": "¿Pero qué cojones acabas de decir? ¿Que un perdido se ha tirado al río?",
+          "pause_ms": 200
+        },
+        {
+          "voice": "narrator",
+          "text": "Bienvenido a Frase del Día, el podcast para hablar inglés como hablas español... pero sin traducir como un cuñado.",
+          "pause_ms": 220
+        },
+        {
+          "voice": "narrator",
+          "text": "Hoy desmontamos de perdidos al río. Esa traducción literal en inglés no funciona."
+        },
+        {
+          "voice": "narrator",
+          "text": "Si quieres decir que ya has llegado demasiado lejos para echarte atrás, di:"
+        },
+        {
+          "voice": "english",
+          "text": "We've come this far. We might as well go all the way.",
+          "pause_ms": 360
+        },
+        {
+          "voice": "narrator",
+          "text": "Otra opción, cuando ya te has metido en un lío y vas a seguir, es:"
+        },
+        {
+          "voice": "english_slow",
+          "text": "In for a penny, in for a pound.",
+          "pause_ms": 290
+        },
+        {
+          "voice": "narrator",
+          "text": "Literalmente, por un penique o por una libra. O sea: puestos a gastar, gastamos.",
+          "pause_ms": 160
+        },
+        {
+          "voice": "narrator",
+          "text": "Ejemplo. Compras un vuelo barato a Londres. El hotel cuesta un riñón. ¿Ahora qué dices?"
+        },
+        {
+          "voice": "english",
+          "text": "In for a penny, in for a pound!",
+          "pause_ms": 240
+        },
+        {
+          "voice": "narrator",
+          "text": "Repítelo: in for a penny, in for a pound. Y guarda from lost to the river para hacer reír a tus amigos, no a tu jefe.",
+          "pause_ms": 200
+        },
+        {
+          "voice": "narrator",
+          "text": "Frase del Día. Inglés de verdad, sin traducciones de mercadillo. ¡Hasta mañana!"
+        }
+      ]
+    }
+  ]
+}
