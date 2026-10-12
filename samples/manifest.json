@@ -1,46 +1,46 @@
 {
-  "created_utc": "2026-10-12T18:45:43.695907+00:00",
+  "created_utc": "2026-10-12T18:50:22.672997+00:00",
   "generation_mode": "GitHub Actions pilot: no Telegram / Spotify",
   "episodes": [
     {
       "lang": "en",
-      "title": "Ni de coña! (English edition)",
-      "filename": "frasedeldia-en-ni-de-cona.mp3",
-      "seconds": 60.7,
+      "title": "Llevar a alguien al huerto (English edition)",
+      "filename": "frasedeldia-en-llevar-al-huerto.mp3",
+      "seconds": 65.8,
       "voice_engines": [
-        "espeak-fallback"
+        "kokoro-neural"
       ],
-      "bytes": 1215374
+      "bytes": 1318310
     },
     {
       "lang": "fr",
-      "title": "Ni de coña ! (édition française)",
-      "filename": "frasedeldia-fr-ni-de-cona.mp3",
-      "seconds": 54.1,
+      "title": "Llevar a alguien al huerto (édition française)",
+      "filename": "frasedeldia-fr-llevar-al-huerto.mp3",
+      "seconds": 54.6,
       "voice_engines": [
-        "espeak-fallback"
+        "kokoro-neural"
       ],
-      "bytes": 1084244
+      "bytes": 1094184
     },
     {
       "lang": "it",
-      "title": "Ni de coña! (edizione italiana)",
-      "filename": "frasedeldia-it-ni-de-cona.mp3",
-      "seconds": 62.0,
+      "title": "Llevar a alguien al huerto (edizione italiana)",
+      "filename": "frasedeldia-it-llevar-al-huerto.mp3",
+      "seconds": 59.2,
       "voice_engines": [
-        "espeak-fallback"
+        "kokoro-neural"
       ],
-      "bytes": 1240453
+      "bytes": 1185088
     },
     {
       "lang": "es",
-      "title": "From lost to the river (edición española)",
-      "filename": "frasedeldia-es-from-lost-to-the-river.mp3",
-      "seconds": 70.9,
+      "title": "Take someone to the vegetable garden (edición española)",
+      "filename": "frasedeldia-es-llevar-al-huerto.mp3",
+      "seconds": 65.2,
       "voice_engines": [
-        "espeak-fallback"
+        "kokoro-neural"
       ],
-      "bytes": 1419664
+      "bytes": 1305262
     }
   ]
 }
