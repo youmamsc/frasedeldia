@@ -1,2 +1,4 @@
+kokoro>=0.9.4,<1
+soundfile>=0.13.1,<1
 edge-tts>=7.0
 pydub>=0.25.1,<0.26

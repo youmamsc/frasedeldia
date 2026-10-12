@@ -21,7 +21,7 @@ concurrency:
 jobs:
   pilots:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,12 +32,18 @@ jobs:
           python-version: "3.11"
           cache: pip
 
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: kokoro-82m-v1
+
       - name: Install dependencies and fallback tools
         run: |
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.6.0
           python -m pip install -r requirements.txt
-          if ! command -v ffmpeg >/dev/null || ! command -v espeak >/dev/null; then
+          if ! command -v ffmpeg >/dev/null || ! command -v espeak >/dev/null || ! command -v espeak-ng >/dev/null; then
             sudo apt-get update
-            sudo apt-get install -y ffmpeg espeak
+            sudo apt-get install -y ffmpeg espeak espeak-ng
           fi
 
       - name: Check four scripts

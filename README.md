@@ -25,9 +25,9 @@ La acción también se lanza al cambiar los guiones o el motor de voz, siempre q
 
 ## Tecnología, costes y privacidad
 
-* Python, `edge-tts` (voces neurales gratuitas sin API key) y FFmpeg/`pydub`.
+* Python, **Kokoro 82M** (modelo neuronal multilingüe local, licencia Apache 2.0), PyTorch CPU y FFmpeg/`pydub`. Edge TTS queda opcional.
 * Cada idioma usa un narrador propio; las expresiones españolas se pronuncian con voz de España.
-* Si Edge TTS no está disponible, se usa un motor local de emergencia (`espeak`) y se marca en `samples/manifest.json`. La calidad del fallback es inferior.
+* Si falla el modelo neuronal Kokoro, se usa `espeak` como último recurso y se marca la voz utilizada en `samples/manifest.json`. La calidad del fallback es inferior. Para uso comercial futuro, revisaremos asimismo las licencias de modelos y dependencias.
 * GitHub Actions estándar en un repositorio público: no consume la cuota de minutos de repositorios privados; las políticas y límites de uso de GitHub pueden cambiar.
 * **No se usa Gemini, ninguna clave de MAC FM, Telegram ni Spotify.** Esta primera fase es solo una prueba de audio.
 * Los guiones son humorísticos y contienen lenguaje adulto/vulgar.

@@ -36,6 +36,45 @@ FALLBACK_VOICES = {
 SILENCE = AudioSegment.silent(duration=250)
 
 
+KOKORO_CODES = {"en": "b", "fr": "f", "it": "i", "es": "e"}
+KOKORO_VOICES = {
+    "en": "bm_george",
+    "fr": "ff_siwis",
+    "it": "im_nicola",
+    "es": "em_alex",
+}
+KOKORO_PIPELINES = {}
+
+
+def clip_from_kokoro(text: str, lang: str, slow: bool) -> AudioSegment:
+    """Use the local Apache-licensed Kokoro 82M neural model on CPU."""
+    import soundfile as sf
+    from kokoro import KPipeline
+
+    code = KOKORO_CODES[lang]
+    if code not in KOKORO_PIPELINES:
+        print(f"Loading Kokoro {lang} voice/model...", flush=True)
+        KOKORO_PIPELINES[code] = KPipeline(lang_code=code)
+
+    pipeline = KOKORO_PIPELINES[code]
+    generator = pipeline(
+        text,
+        voice=KOKORO_VOICES[lang],
+        speed=0.80 if slow else 1.03,
+    )
+    result = AudioSegment.empty()
+    produced = False
+    for _, _, audio in generator:
+        buffer = io.BytesIO()
+        sf.write(buffer, audio, 24000, format="WAV")
+        buffer.seek(0)
+        result += AudioSegment.from_file(buffer, format="wav")
+        produced = True
+    if not produced or len(result) < 150:
+        raise RuntimeError("Kokoro returned no meaningful audio")
+    return result
+
+
 def clip_from_espeak(text: str, lang: str, slow: bool) -> AudioSegment:
     command = ["espeak", "-v", FALLBACK_VOICES[lang], "-s", "122" if slow else "155",
                "-a", "160", "--stdout", text]
@@ -81,8 +120,10 @@ async def run() -> None:
         "generation_mode": "GitHub Actions pilot: no Telegram / Spotify",
         "episodes": [],
     }
-    # This can be forced locally with PILOT_TTS_BACKEND=espeak.
-    edge_available = os.getenv("PILOT_TTS_BACKEND", "edge").lower() != "espeak"
+    # Offline neural model by default; optional Edge or eSpeak for diagnosis.
+    backend = os.getenv("PILOT_TTS_BACKEND", "kokoro").lower()
+    kokoro_available = backend == "kokoro"
+    edge_available = backend == "edge"
     for episode in data["episodes"]:
         language = episode["id"]
         print(f"Producing {language}: {episode['title']}", flush=True)
@@ -91,17 +132,21 @@ async def run() -> None:
         engines = set()
         for i, segment in enumerate(episode["segments"], 1):
             lang, slow = resolve_lang(language, segment["voice"])
-            if edge_available:
-                try:
+            try:
+                if kokoro_available:
+                    clip = clip_from_kokoro(segment["text"], lang, slow)
+                    engines.add("kokoro-neural")
+                elif edge_available:
                     clip = await clip_from_edge(segment["text"], lang, slow)
                     engines.add("edge-tts")
-                except Exception as exc:
-                    edge_available = False
-                    print(f"WARNING: neural TTS failed ({type(exc).__name__}: {exc}); "
-                          "using low-quality offline eSpeak fallback.", flush=True)
+                else:
                     clip = clip_from_espeak(segment["text"], lang, slow)
                     engines.add("espeak-fallback")
-            else:
+            except Exception as exc:
+                kokoro_available = False
+                edge_available = False
+                print(f"WARNING: neural TTS failed ({type(exc).__name__}: {exc}); "
+                      "using low-quality offline eSpeak fallback.", flush=True)
                 clip = clip_from_espeak(segment["text"], lang, slow)
                 engines.add("espeak-fallback")
             chunks.append(clip)
@@ -131,7 +176,8 @@ async def run() -> None:
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    if not edge_available:
+    if any("espeak-fallback" in episode["voice_engines"]
+           for episode in manifest["episodes"]):
         print("WARNING: Some/all segments used eSpeak. See manifest.json.",
               flush=True)
 
