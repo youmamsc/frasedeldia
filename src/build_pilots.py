@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from pydub import AudioSegment, effects
-from pydub.generators import Sine
+from music import make_jingle
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "episodes" / "pilots.json"
@@ -96,12 +96,6 @@ async def clip_from_edge(text: str, lang: str, slow: bool) -> AudioSegment:
         return AudioSegment.from_file(path, format="mp3")
 
 
-def sting() -> AudioSegment:
-    """An original, simple two-note identification sound (no sampled music)."""
-    a = Sine(523).to_audio_segment(duration=130).fade_in(15).fade_out(50)
-    b = Sine(784).to_audio_segment(duration=180).fade_in(15).fade_out(90)
-    return (a + AudioSegment.silent(duration=30) + b).apply_gain(-16)
-
 
 def resolve_lang(episode_lang: str, voice: str) -> tuple[str, bool]:
     if voice in ("spanish", "spanish_slow"):
@@ -128,8 +122,8 @@ async def run() -> None:
     for episode in data["episodes"]:
         language = episode["id"]
         print(f"Producing {language}: {episode['title']}", flush=True)
-        chunks = [AudioSegment.silent(duration=130), sting(),
-                  AudioSegment.silent(duration=200)]
+        chunks = [AudioSegment.silent(duration=90), make_jingle(),
+                  AudioSegment.silent(duration=150)]
         engines = set()
         for i, segment in enumerate(episode["segments"], 1):
             lang, slow = resolve_lang(language, segment["voice"])
@@ -156,7 +150,7 @@ async def run() -> None:
             chunks.append(AudioSegment.silent(duration=pause))
             print(f"  {i:02d}/{len(episode['segments'])}: "
                   f"{segment['voice']} ({len(clip)}ms)", flush=True)
-        chunks += [AudioSegment.silent(duration=120), sting()]
+        chunks += [AudioSegment.silent(duration=140), make_jingle(outro=True)]
         combined = AudioSegment.empty()
         for chunk in chunks:
             combined += chunk

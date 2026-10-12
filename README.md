@@ -23,6 +23,12 @@ Los cuatro MP3 estarán en [`samples/`](https://github.com/youmamsc/frasedeldia/
 
 La acción también se lanza al cambiar los guiones o el motor de voz, siempre que sea en `main`.
 
+## Identidad sonora
+
+Cada episodio abre con una **intro musical original de 3,2 segundos** (guitarra sintetizada, palmas/percusiones suaves y pequeña reverberación) y termina con un cierre de 1,35 segundos. La música se sintetiza en Python, sin pistas de terceros ni bibliotecas de música con restricciones. El audio hablado va limpio, sin música por encima de la pronunciación.
+
+La voz francesa actual continúa siendo Kokoro (`ff_siwis`), a la espera de una comparación A/B con motores franceses alternativos como MeloTTS.
+
 ## Tecnología, costes y privacidad
 
 * Python, **Kokoro 82M** (modelo neuronal multilingüe local, licencia Apache 2.0), PyTorch CPU y FFmpeg/`pydub`. Edge TTS queda opcional.
