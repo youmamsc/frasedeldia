@@ -41,3 +41,7 @@ La acción también se lanza al cambiar los guiones o el motor de voz, siempre q
 `.github/workflows/pilots.yml`: ejecuta pruebas, genera MP3 y publica los ejemplos.
 
 `tests/test_pilots.py`: valida estructura y contenidos básicos del paquete.
+
+## Automatización editorial y publicación
+
+Además de los pilotos, el proyecto incluye una automatización independiente para seleccionar expresiones con IA, aprobar o cambiar propuestas por Telegram y producir los cuatro RSS diarios. **La publicación está desactivada hasta configurar los secretos y habilitarla explícitamente.** Consulta [AUTOMATION.md](AUTOMATION.md) para ponerla en marcha.
