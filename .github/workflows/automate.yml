@@ -62,16 +62,16 @@ jobs:
 
       - name: Select and run scheduled task
         env:
-          GEMINI_API_KEY: \${{ secrets.GEMINI_API_KEY }}
-          GEMINI_TEXT_MODEL: \${{ vars.GEMINI_TEXT_MODEL }}
-          TELEGRAM_BOT_TOKEN: \${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: \${{ secrets.TELEGRAM_CHAT_ID }}
-          PODCAST_OWNER_EMAIL: \${{ secrets.PODCAST_OWNER_EMAIL }}
-          ENABLE_PUBLICATION: \${{ vars.ENABLE_PUBLICATION }}
-          GH_RUN_URL: \${{ github.server_url }}/\${{ github.repository }}/actions/runs/\${{ github.run_id }}
-          EVENT_NAME: \${{ github.event_name }}
-          EVENT_SCHEDULE: \${{ github.event.schedule }}
-          INPUT_MODE: \${{ inputs.mode }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_TEXT_MODEL: ${{ vars.GEMINI_TEXT_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PODCAST_OWNER_EMAIL: ${{ secrets.PODCAST_OWNER_EMAIL }}
+          ENABLE_PUBLICATION: ${{ vars.ENABLE_PUBLICATION }}
+          GH_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
         run: |
           MODE="${INPUT_MODE:-tests}"
           if [ "$EVENT_NAME" = "schedule" ]; then
