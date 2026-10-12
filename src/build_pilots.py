@@ -11,6 +11,7 @@ import io
 import json
 import os
 import subprocess
+import traceback
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -147,6 +148,7 @@ async def run() -> None:
                 edge_available = False
                 print(f"WARNING: neural TTS failed ({type(exc).__name__}: {exc}); "
                       "using low-quality offline eSpeak fallback.", flush=True)
+                traceback.print_exc()
                 clip = clip_from_espeak(segment["text"], lang, slow)
                 engines.add("espeak-fallback")
             chunks.append(clip)

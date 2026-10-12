@@ -2,14 +2,14 @@
 
 **Cuatro podcasts de humor para aprender expresiones sin sonar como un robot.**
 
-Este repositorio contiene los cuatro **episodios piloto**: tres para aprender español coloquial desde inglés, francés e italiano y uno para hispanohablantes que quieren hablar inglés de forma natural, sin traducciones literales.
+Las cuatro versiones enseñan la **misma expresión del día** (primer piloto: «llevar a alguien al huerto»). Este repositorio contiene los cuatro **episodios piloto**: tres para aprender español coloquial desde inglés, francés e italiano y uno para hispanohablantes que quieren hablar inglés de forma natural, sin traducciones literales.
 
 | Idioma del programa | Expresión | Episodio |
 |---|---|---|
-| 🇬🇧 Inglés | ¡Ni de coña! | `samples/frasedeldia-en-ni-de-cona.mp3` |
-| 🇫🇷 Francés | ¡Ni de coña! | `samples/frasedeldia-fr-ni-de-cona.mp3` |
-| 🇮🇹 Italiano | ¡Ni de coña! | `samples/frasedeldia-it-ni-de-cona.mp3` |
-| 🇪🇸 Español | “From lost to the river” | `samples/frasedeldia-es-from-lost-to-the-river.mp3` |
+| 🇬🇧 Inglés | Llevar a alguien al huerto | `samples/frasedeldia-en-llevar-al-huerto.mp3` |
+| 🇫🇷 Francés | Llevar a alguien al huerto | `samples/frasedeldia-fr-llevar-al-huerto.mp3` |
+| 🇮🇹 Italiano | Llevar a alguien al huerto | `samples/frasedeldia-it-llevar-al-huerto.mp3` |
+| 🇪🇸 Español | “Take someone to the vegetable garden” | `samples/frasedeldia-es-llevar-al-huerto.mp3` |
 
 ## Cómo escuchar los pilotos
 

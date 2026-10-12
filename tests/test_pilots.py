@@ -30,12 +30,18 @@ class PilotScriptsTest(unittest.TestCase):
         for episode in PILOTS["episodes"]:
             if episode["id"] != "es":
                 self.assertTrue(any(s["voice"] == "spanish_slow"
-                                    and "coña" in s["text"]
+                                    and "huerto" in s["text"]
                                     for s in episode["segments"]))
             else:
                 self.assertEqual(episode["segments"][0]["voice"], "english")
-                self.assertIn("From lost to the river",
+                self.assertIn("Take someone to the vegetable garden",
                               episode["segments"][0]["text"])
+
+
+    def test_shared_daily_expression(self):
+        self.assertEqual(PILOTS["daily_expression"], "Llevar a alguien al huerto")
+        for episode in PILOTS["episodes"]:
+            self.assertTrue(any("huerto" in s["text"].lower() for s in episode["segments"]))
 
     def test_no_shared_company_identifiers(self):
         content = json.dumps(PILOTS, ensure_ascii=False).lower()

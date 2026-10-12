@@ -1,161 +1,145 @@
 {
-  "project": "Frase del Día · cuatro pilotos de humor lingüístico",
-  "format": "Spicy language-learning micro-podcast. Spoken audio is for adults; don't censor educational examples.",
+  "project": "Frase del Día · episodio piloto 001",
+  "daily_expression": "Llevar a alguien al huerto",
+  "format": "One Spanish expression, four audiences. Humorous, cheeky, adult-friendly. Accurately teach seduction and persuading/tricking senses.",
   "episodes": [
     {
       "id": "en",
-      "audience": "English speakers learning informal Spanish",
-      "title": "Ni de coña! (English edition)",
-      "filename": "frasedeldia-en-ni-de-cona.mp3",
+      "audience": "English learners of informal Spanish",
+      "title": "Llevar a alguien al huerto (English edition)",
+      "filename": "frasedeldia-en-llevar-al-huerto.mp3",
       "segments": [
         {
           "voice": "narrator",
-          "text": "Welcome to Frase del Día. The Spanish your textbook was too scared to teach you.",
-          "pause_ms": 250
+          "text": "Welcome to Frase del Día, the Spanish your language teacher was too shy to explain."
         },
         {
           "voice": "narrator",
-          "text": "Today's expression is short, spicy, and extremely useful:"
+          "text": "Today's phrase is:"
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 330
-        },
-        {
-          "voice": "narrator",
-          "text": "It means: No bloody way. Or, if you're really annoyed: No fucking way!",
-          "pause_ms": 240
-        },
-        {
-          "voice": "narrator",
-          "text": "Pronunciation time. Listen to the Spanish voice, slowly:"
-        },
-        {
-          "voice": "spanish_slow",
-          "text": "Ni... de... coña.",
+          "text": "¡Llevar a alguien al huerto!",
           "pause_ms": 320
         },
         {
           "voice": "narrator",
-          "text": "That letter eñe sounds like the N Y in canyon. One more time:"
+          "text": "Literally? To take someone to the vegetable garden. Romantic, if you're a carrot."
+        },
+        {
+          "voice": "narrator",
+          "text": "In Spain, it can mean to seduce someone, or to sweet-talk them into doing something."
+        },
+        {
+          "voice": "narrator",
+          "text": "Here's how you say it. Slowly:"
+        },
+        {
+          "voice": "spanish_slow",
+          "text": "Llevar... a alguien... al huerto.",
+          "pause_ms": 260
+        },
+        {
+          "voice": "narrator",
+          "text": "That first double L often sounds like the Y in yes, and the H in huerto is silent."
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 300
+          "text": "Llevar a alguien al huerto.",
+          "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Example one. Your boss says, Can you work on Saturday? For free, obviously. Your reply?"
+          "text": "Example one. Your mate arrives at a date smelling of expensive perfume. Two hours later? Sparks are flying. He really knows how to charm someone."
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 250
+          "text": "¡Se la llevó al huerto!",
+          "pause_ms": 230
         },
         {
           "voice": "narrator",
-          "text": "Example two. Your Tinder date says, My ex still sleeps in my bed. Romantic, right?"
-        },
-        {
-          "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 200
+          "text": "Example two. A salesman convinces you to buy a terrible car. He's also taken you to the garden, but this time you're the vegetable."
         },
         {
           "voice": "narrator",
-          "text": "Warning: it's very informal. Don't say it to your mother-in-law. Unless you're feeling brave.",
-          "pause_ms": 140
-        },
-        {
-          "voice": "narrator",
-          "text": "Frase del Día. Speak Spanish. Cause trouble. See you tomorrow!"
+          "text": "Use it with friends, not at your wedding vows. Unless you're marrying a farmer. See you tomorrow!"
         }
       ]
     },
     {
       "id": "fr",
       "audience": "Francophones apprenant l'espagnol familier",
-      "title": "Ni de coña ! (édition française)",
-      "filename": "frasedeldia-fr-ni-de-cona.mp3",
+      "title": "Llevar a alguien al huerto (édition française)",
+      "filename": "frasedeldia-fr-llevar-al-huerto.mp3",
       "segments": [
         {
           "voice": "narrator",
-          "text": "Bienvenue dans Frase del Día, l'espagnol que ton prof n'osait pas t'enseigner.",
-          "pause_ms": 200
+          "text": "Bienvenue à Frase del Día, l'espagnol que ton prof n'osait pas t'apprendre."
         },
         {
           "voice": "narrator",
-          "text": "L'expression du jour, c'est :"
+          "text": "L'expression du jour est :"
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 330
+          "text": "¡Llevar a alguien al huerto!",
+          "pause_ms": 320
         },
         {
           "voice": "narrator",
-          "text": "En français ? Même pas en rêve ! Ou, version épicée : Pas question, bordel !",
+          "text": "Mot à mot : emmener quelqu'un au potager. Pour planter des tomates ? Pas exactement !"
+        },
+        {
+          "voice": "narrator",
+          "text": "En Espagne, ça peut vouloir dire séduire quelqu'un, ou l'embobiner pour obtenir quelque chose."
+        },
+        {
+          "voice": "narrator",
+          "text": "Répète lentement :"
+        },
+        {
+          "voice": "spanish_slow",
+          "text": "Llevar... a alguien... al huerto.",
           "pause_ms": 260
         },
         {
           "voice": "narrator",
-          "text": "Pour prononcer comme en Espagne, écoute bien :"
-        },
-        {
-          "voice": "spanish_slow",
-          "text": "Ni... de... coña.",
-          "pause_ms": 300
-        },
-        {
-          "voice": "narrator",
-          "text": "Le son gn, comme dans montagne. Mais attention, ce n'est pas une montagne à gravir !"
+          "text": "Le double L se prononce souvent comme un y. Et le h de huerto est muet."
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
+          "text": "Llevar a alguien al huerto.",
           "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Premier exemple : ton patron demande : tu pourrais bosser dimanche, gratuitement ?"
+          "text": "Premier exemple : ton pote charme sa collègue toute la soirée. On dira :"
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 180
+          "text": "¡Se la llevó al huerto!",
+          "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Deuxième exemple : ton rencard te dit que son ex dort encore dans son lit. Très romantique."
-        },
-        {
-          "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 180
+          "text": "Deuxième exemple : un vendeur te convainc d'acheter sa vieille voiture pour une fortune. Il t'a aussi emmené au potager. Et le navet, c'est toi."
         },
         {
           "voice": "narrator",
-          "text": "Petit conseil : c'est familier et grossier. Évite-le au dîner chez ta belle-mère. Sauf si tu veux dormir sur le canapé.",
-          "pause_ms": 150
-        },
-        {
-          "voice": "narrator",
-          "text": "Frase del Día. Apprends l'espagnol, et sème un peu le chaos. À demain !"
+          "text": "Attention, c'est familier et un peu grivois. À demain, pour une nouvelle leçon de jardinage très spécial !"
         }
       ]
     },
     {
       "id": "it",
       "audience": "Italiani che imparano lo spagnolo colloquiale",
-      "title": "Ni de coña! (edizione italiana)",
-      "filename": "frasedeldia-it-ni-de-cona.mp3",
+      "title": "Llevar a alguien al huerto (edizione italiana)",
+      "filename": "frasedeldia-it-llevar-al-huerto.mp3",
       "segments": [
         {
           "voice": "narrator",
-          "text": "Benvenuti a Frase del Día. Lo spagnolo che il tuo professore non ha avuto il coraggio di insegnarti.",
-          "pause_ms": 200
+          "text": "Benvenuti a Frase del Día, lo spagnolo che il professore non ha mai osato spiegarti."
         },
         {
           "voice": "narrator",
@@ -163,126 +147,134 @@
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 300
+          "text": "¡Llevar a alguien al huerto!",
+          "pause_ms": 320
         },
         {
           "voice": "narrator",
-          "text": "Significa: Neanche per sogno! Oppure, se sei davvero stufo: Ma col cazzo!",
-          "pause_ms": 250
+          "text": "Traduzione letterale? Portare qualcuno nell'orto. Romantico, se sei una zucchina!"
         },
         {
           "voice": "narrator",
-          "text": "Come si pronuncia? Ascolta la voce spagnola, lentamente:"
+          "text": "In Spagna vuol dire sedurre qualcuno, ma anche convincerlo con furbizia, magari prendendolo in giro."
+        },
+        {
+          "voice": "narrator",
+          "text": "Pronunciamola piano:"
         },
         {
           "voice": "spanish_slow",
-          "text": "Ni... de... coña.",
-          "pause_ms": 280
+          "text": "Llevar... a alguien... al huerto.",
+          "pause_ms": 270
         },
         {
           "voice": "narrator",
-          "text": "La eñe suona più o meno come il nostro gn di gnocchi. Solo che questi gnocchi mordono."
+          "text": "La doppia elle suona spesso come una i semiconsonantica; la acca di huerto non si pronuncia."
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 180
+          "text": "Llevar a alguien al huerto.",
+          "pause_ms": 210
         },
         {
           "voice": "narrator",
-          "text": "Primo esempio. Il capo ti chiede: lavori gratis anche sabato? Dai, siamo una famiglia!"
+          "text": "Primo esempio: il tuo amico conquista qualcuno al primo appuntamento. Dici:"
         },
         {
           "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 180
+          "text": "¡Se la llevó al huerto!",
+          "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Secondo esempio. Al primo appuntamento scopri che l'ex dorme ancora nel letto dell'altra persona."
-        },
-        {
-          "voice": "spanish",
-          "text": "¡Ni de coña!",
-          "pause_ms": 180
+          "text": "Secondo esempio: un venditore ti rifila un'auto con tre ruote. Ti ha portato nell'orto, ma stavolta il cetriolo sei tu."
         },
         {
           "voice": "narrator",
-          "text": "Attenzione: è molto colloquiale. Non dirlo a tua suocera. A meno che tu non voglia cenare da solo.",
-          "pause_ms": 160
-        },
-        {
-          "voice": "narrator",
-          "text": "Frase del Día. Parla spagnolo, combina guai. A domani!"
+          "text": "È un'espressione colloquiale, con un doppio senso piccante. A domani, e occhio agli ortolani!"
         }
       ]
     },
     {
       "id": "es",
-      "audience": "Españoles que quieren sonar naturales en inglés",
-      "title": "From lost to the river (edición española)",
-      "filename": "frasedeldia-es-from-lost-to-the-river.mp3",
+      "audience": "Españoles aprendiendo inglés natural",
+      "title": "Take someone to the vegetable garden (edición española)",
+      "filename": "frasedeldia-es-llevar-al-huerto.mp3",
       "segments": [
         {
           "voice": "english",
-          "text": "From lost to the river.",
-          "pause_ms": 580
+          "text": "Take someone to the vegetable garden.",
+          "pause_ms": 500
         },
         {
           "voice": "narrator",
-          "text": "¿Pero qué cojones acabas de decir? ¿Que un perdido se ha tirado al río?",
-          "pause_ms": 200
+          "text": "¿Pero qué cojones acabas de decir? ¿Que has quedado en Tinder para plantar calabacines?"
         },
         {
           "voice": "narrator",
-          "text": "Bienvenido a Frase del Día, el podcast para hablar inglés como hablas español... pero sin traducir como un cuñado.",
+          "text": "Bienvenido a Frase del Día: habla inglés como hablas español, pero sin traducir como un GPS borracho."
+        },
+        {
+          "voice": "narrator",
+          "text": "Hoy toca: "
+        },
+        {
+          "voice": "spanish",
+          "text": "Llevar a alguien al huerto.",
+          "pause_ms": 300
+        },
+        {
+          "voice": "narrator",
+          "text": "En español puede significar seducir a alguien, o engatusarlo para que haga algo."
+        },
+        {
+          "voice": "narrator",
+          "text": "Si hablas de seducir, no lo mandes a comprar lechugas. Di:"
+        },
+        {
+          "voice": "english_slow",
+          "text": "To seduce someone.",
+          "pause_ms": 260
+        },
+        {
+          "voice": "narrator",
+          "text": "O, más coloquial, si lo conquistas con tu encanto:"
+        },
+        {
+          "voice": "english",
+          "text": "To charm someone.",
           "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Hoy desmontamos de perdidos al río. Esa traducción literal en inglés no funciona."
-        },
-        {
-          "voice": "narrator",
-          "text": "Si quieres decir que ya has llegado demasiado lejos para echarte atrás, di:"
+          "text": "Por ejemplo: Luis se la llevó al huerto en la primera cita."
         },
         {
           "voice": "english",
-          "text": "We've come this far. We might as well go all the way.",
-          "pause_ms": 360
+          "text": "Luis charmed her on their first date.",
+          "pause_ms": 220
         },
         {
           "voice": "narrator",
-          "text": "Otra opción, cuando ya te has metido en un lío y vas a seguir, es:"
+          "text": "Pero si hablamos de engatusar, di:"
         },
         {
           "voice": "english_slow",
-          "text": "In for a penny, in for a pound.",
-          "pause_ms": 290
+          "text": "To talk someone into something.",
+          "pause_ms": 250
         },
         {
           "voice": "narrator",
-          "text": "Literalmente, por un penique o por una libra. O sea: puestos a gastar, gastamos.",
-          "pause_ms": 160
-        },
-        {
-          "voice": "narrator",
-          "text": "Ejemplo. Compras un vuelo barato a Londres. El hotel cuesta un riñón. ¿Ahora qué dices?"
+          "text": "Ejemplo: el vendedor me convenció para comprar un coche que ni arranca."
         },
         {
           "voice": "english",
-          "text": "In for a penny, in for a pound!",
-          "pause_ms": 240
+          "text": "The salesman talked me into buying a car that won't even start.",
+          "pause_ms": 230
         },
         {
           "voice": "narrator",
-          "text": "Repítelo: in for a penny, in for a pound. Y guarda from lost to the river para hacer reír a tus amigos, no a tu jefe.",
-          "pause_ms": 200
-        },
-        {
-          "voice": "narrator",
-          "text": "Frase del Día. Inglés de verdad, sin traducciones de mercadillo. ¡Hasta mañana!"
+          "text": "Y recuerda: en inglés no te llevas a nadie al huerto. Salvo que hayas ligado con un agricultor. ¡Hasta mañana!"
         }
       ]
     }
