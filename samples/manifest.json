@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-12T18:41:22.495456+00:00",
+  "generation_mode": "GitHub Actions pilot: no Telegram / Spotify",
+  "episodes": [
+    {
+      "lang": "en",
+      "title": "Ni de coña! (English edition)",
+      "filename": "frasedeldia-en-ni-de-cona.mp3",
+      "seconds": 60.7,
+      "voice_engines": [
+        "espeak-fallback"
+      ],
+      "bytes": 1215374
+    },
+    {
+      "lang": "fr",
+      "title": "Ni de coña ! (édition française)",
+      "filename": "frasedeldia-fr-ni-de-cona.mp3",
+      "seconds": 54.1,
+      "voice_engines": [
+        "espeak-fallback"
+      ],
+      "bytes": 1084244
+    },
+    {
+      "lang": "it",
+      "title": "Ni de coña! (edizione italiana)",
+      "filename": "frasedeldia-it-ni-de-cona.mp3",
+      "seconds": 62.0,
+      "voice_engines": [
+        "espeak-fallback"
+      ],
+      "bytes": 1240453
+    },
+    {
+      "lang": "es",
+      "title": "From lost to the river (edición española)",
+      "filename": "frasedeldia-es-from-lost-to-the-river.mp3",
+      "seconds": 70.9,
+      "voice_engines": [
+        "espeak-fallback"
+      ],
+      "bytes": 1419664
+    }
+  ]
+}
