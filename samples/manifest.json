@@ -1,46 +1,46 @@
 {
-  "created_utc": "2026-10-12T18:50:22.672997+00:00",
+  "created_utc": "2026-10-12T19:11:07.673506+00:00",
   "generation_mode": "GitHub Actions pilot: no Telegram / Spotify",
   "episodes": [
     {
       "lang": "en",
       "title": "Llevar a alguien al huerto (English edition)",
       "filename": "frasedeldia-en-llevar-al-huerto.mp3",
-      "seconds": 65.8,
+      "seconds": 69.6,
       "voice_engines": [
         "kokoro-neural"
       ],
-      "bytes": 1318310
+      "bytes": 1394065
     },
     {
       "lang": "fr",
       "title": "Llevar a alguien al huerto (édition française)",
       "filename": "frasedeldia-fr-llevar-al-huerto.mp3",
-      "seconds": 54.6,
+      "seconds": 58.4,
       "voice_engines": [
         "kokoro-neural"
       ],
-      "bytes": 1094184
+      "bytes": 1170461
     },
     {
       "lang": "it",
       "title": "Llevar a alguien al huerto (edizione italiana)",
       "filename": "frasedeldia-it-llevar-al-huerto.mp3",
-      "seconds": 59.2,
+      "seconds": 63.0,
       "voice_engines": [
         "kokoro-neural"
       ],
-      "bytes": 1185088
+      "bytes": 1260843
     },
     {
       "lang": "es",
       "title": "Take someone to the vegetable garden (edición española)",
       "filename": "frasedeldia-es-llevar-al-huerto.mp3",
-      "seconds": 65.2,
+      "seconds": 69.0,
       "voice_engines": [
         "kokoro-neural"
       ],
-      "bytes": 1305262
+      "bytes": 1381017
     }
   ]
 }
